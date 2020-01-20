@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar content"
+    "footer footer";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px 300px 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between; 
+}
+header > div {
+  margin: 10px;
+}
+#left-header {
+  display: flex;
+}
+#left-header > div {
+  margin: 5px 10px;
+}
+header { grid-area: header; background: pink }
+nav { grid-area: sidebar; background: yellow }
+main.content { grid-area: content; background: lightblue }
+footer { grid-area: footer; background: gray }

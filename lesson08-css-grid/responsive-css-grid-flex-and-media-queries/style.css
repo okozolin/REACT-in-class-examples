@@ -1,0 +1,31 @@
+#mydiv {
+    display: flex;
+    flex-direction: column;
+}
+.d {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background: blue;
+}
+@media screen and (min-width: 700px) {
+    body {
+        background: red;
+    }
+}
+
+
+@media screen and (min-width: 700px) {
+    #mydiv {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 240px;
+        background: green;
+    }
+}
+@media screen and (min-width: 1000px) {
+    #mydiv {
+        width: 100%;
+        background: green;
+    }
+}

@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 50px 100px 30px;
+  grid-column-gap: 15px;
+  grid-row-gap:15px;
+}
+
+.item {
+  background: #333333;
+}
+
+.item:nth-child(odd) {
+  background: #999999;
+}

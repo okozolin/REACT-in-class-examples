@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+.light {
+  background-color: aqua;
+  color: fuchsia;
+  height: 100vh;
+}
+
+.dark {
+  background-color: black;
+  color: yellowgreen;
+  height: 100vh;
+}

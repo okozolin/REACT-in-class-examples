@@ -1,4 +1,5 @@
 import _ from "lodash";
+import "./style.css";
 function Component(text) {
   console.log("Rendering component");
   const element = document.createElement("div");
